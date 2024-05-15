@@ -122,7 +122,7 @@ function handleOperator(value){
 
 // for calculation function
 function doCalculation(){
-        let total="parseFloat(calc.total)";
+        let total=parseFloat(calc.total);
         switch(calc.preOp){
             case "*":
                 total *= parseFloat(calc.current); // equivalent to total = total * parseFloat (calc.current)
